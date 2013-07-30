@@ -1,0 +1,43 @@
+{
+  "name": "q-step",
+  "version": "0.0.1",
+  "description": "A simple control flow function for JavaScript promises, similar to creationix/step",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "q": "latest"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "q-proxy": "latest",
+    "wd": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee -c index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tlrobinson/q-step.git"
+  },
+  "author": {
+    "name": "Tom Robinson",
+    "email": "tlrobinson@gmail.com",
+    "url": "http://tlrobinson.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlrobinson/q-step/issues"
+  },
+  "keywords": [
+    "q",
+    "promise",
+    "promises",
+    "promise/a",
+    "promises/a+",
+    "promises-aplus",
+    "control"
+  ]
+}
