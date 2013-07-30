@@ -1,6 +1,6 @@
 {
   "name": "q-step",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple control flow function for JavaScript promises, similar to creationix/step",
   "main": "index.js",
   "directories": {
